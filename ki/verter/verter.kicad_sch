@@ -1,5 +1,228 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid a939f359-12fd-4fec-b219-1311b835b030)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 93.98 22.86) (size 55.88 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e6e13d1c-360e-4fa0-9b92-15c11b8ce28d)
+    (property "Sheet name" "amp" (id 0) (at 93.98 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "amp.kicad_sch" (id 1) (at 93.98 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/0ea5eadd-62a4-4190-866e-dfe979f528a7"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/278837e9-0ac3-4a29-9d43-f15473feb56c"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/c4864bf0-9373-4024-94e1-d01bf6312726"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/91709d99-6d5d-4ffc-81a8-f39a844b6545"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/930a6104-38e8-47e9-8fe0-bc944d4e3f26"
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/ce51c71c-d1a4-40a9-a3dd-401833416c4b"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/6a69b8e1-e255-4c49-9d37-6f26c4f4cc46"
+      (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/86770ff9-da9d-47b4-81f1-49452cd9493a"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/23001224-fb62-4612-8a5c-36a0872cea5e"
+      (reference "#PWR0101") (unit 1) (value "+VDC") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/211e4e57-d332-4307-966a-40923d22a9d2"
+      (reference "#PWR0102") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/4fdea6c2-a09c-4135-bd7d-331554d9c430"
+      (reference "#PWR0103") (unit 1) (value "-VDC") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d32a5342-dbc3-4d58-b708-283f35389d88"
+      (reference "#PWR0104") (unit 1) (value "-BATT") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/412f5a35-6a01-47d7-ad23-485a744e899d"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/4ee2f476-ccd5-4bd8-834d-ddd2c6c0d7f2"
+      (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/4d33b785-1fd2-458e-a8ee-31041d8e62a3"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/156d1218-6385-4307-a1c8-8e6db7e6f742"
+      (reference "#PWR0108") (unit 1) (value "-VDC") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/775506b5-487c-482e-8f88-b1f0786b646a"
+      (reference "#PWR0109") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/b1001493-c47f-45ad-beae-42da5ecdab67"
+      (reference "#PWR0110") (unit 1) (value "+VDC") (footprint "libverter:bannahammuk")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/75bfd7e9-86cc-4741-ae87-484445dcda03"
+      (reference "#PWR0111") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/370ab234-f1d4-482c-88d6-ef7e999713a8"
+      (reference "BN1") (unit 1) (value "bana_1") (footprint "libverter:bannaone")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/637cb4f4-7547-409c-b614-2d01a9665539"
+      (reference "BN2") (unit 1) (value "bana") (footprint "libverter:bannahammuk")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/5b262432-9a1c-4297-83cc-acd3e524a8a2"
+      (reference "BN3") (unit 1) (value "bana") (footprint "libverter:bannahammuk")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/1bf02c10-58db-4cb1-a2d6-e4a56943c4f0"
+      (reference "BNOut4") (unit 1) (value "bana_1") (footprint "libverter:bannaone")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/03ec0419-2b14-4097-88f7-b58335c5aafd"
+      (reference "C1") (unit 1) (value "100nC") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d8680927-553f-41a2-a71e-4feefe1b43f5"
+      (reference "C2") (unit 1) (value "1uC") (footprint "libverter:bettrsmt_polar")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d6fb1f1d-ed4e-4fc6-86c9-4cb5eb1f7d56"
+      (reference "C3") (unit 1) (value "1uC") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/1f8bf407-d66c-4753-9b2a-5b811445ba84"
+      (reference "C4") (unit 1) (value "1uC") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/eaa1b775-b1ab-434c-858c-fd481f333fcc"
+      (reference "C5") (unit 1) (value "470nC") (footprint "generic-chkn:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/8ae795f6-e473-45b3-b942-8d5f7b823606"
+      (reference "C6") (unit 1) (value "47uC") (footprint "libverter:epcos-d-25")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/eea0b13c-9232-4d76-93a1-3564db368958"
+      (reference "C7") (unit 1) (value "47uC") (footprint "libverter:epcos-d-25")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/b4535773-0dfb-4d15-977e-6a4be98f8eac"
+      (reference "C8") (unit 1) (value "470nC") (footprint "generic-chkn:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/6b81d357-e98f-4144-b009-ab5bc11cb91f"
+      (reference "C9") (unit 1) (value "470nC") (footprint "generic-chkn:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d3d2ca23-ee55-454e-84ef-60ed2dacb438"
+      (reference "C10") (unit 1) (value "10uC") (footprint "libverter:bettrsmt_polar")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/957641c5-7983-4f2f-9fd7-9198fd7ca222"
+      (reference "C11") (unit 1) (value "10uC") (footprint "libverter:bettrsmt_polar")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/38a6ec12-3087-447b-9c54-aeb0c55fa2ce"
+      (reference "C12") (unit 1) (value "470nC") (footprint "generic-chkn:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/718e6aeb-25a1-47af-a8e2-ab30835d39db"
+      (reference "C13") (unit 1) (value "470nC") (footprint "generic-chkn:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d175d98f-7129-4229-8126-91569165cd6b"
+      (reference "D1") (unit 1) (value "D") (footprint "libverter:bettrsmt_diode")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/c7433c95-1539-492f-96b3-f001ce0d383d"
+      (reference "D2") (unit 1) (value "dcLED") (footprint "libverter:bettrsmt_diode")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/bece4e1f-369a-4d84-b182-fc25c5f0d2cf"
+      (reference "D3") (unit 1) (value "3v3LED") (footprint "libverter:bettrsmt_diode")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/179d9469-e479-47f4-b192-26a506747917"
+      (reference "D4") (unit 1) (value "BattLED") (footprint "libverter:bettrsmt_diode")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/690b67da-0d2e-48a3-9239-530236f6dd5b"
+      (reference "L1") (unit 1) (value "47mL") (footprint "libverter:Lish")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/4b2e36b2-c0f8-4ebc-93a4-e1796ff1d17b"
+      (reference "L2") (unit 1) (value "47mL") (footprint "libverter:Lish")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/0915253d-95f2-418d-a715-94d219d68af5"
+      (reference "M1") (unit 1) (value "m5") (footprint "libverter:m5mount")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/ddebdcdb-db3c-4f20-abe4-a776ed054887"
+      (reference "M2") (unit 1) (value "m5") (footprint "libverter:m5mount")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/515a3fde-bb96-4a97-8304-15fc6e0d3312"
+      (reference "M3") (unit 1) (value "m5") (footprint "libverter:m5mount")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/81eff79c-d7c5-47ad-b48c-4fa3b2aec3a3"
+      (reference "M4") (unit 1) (value "m5") (footprint "libverter:m5mount")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/1b39f772-3cf3-42ac-bb28-b95e0fef1246"
+      (reference "R1") (unit 1) (value "10R") (footprint "libverter:bettrsmt")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/8bed107c-01f1-47fa-915b-19a72981e27f"
+      (reference "R2") (unit 1) (value "10R") (footprint "libverter:bettrsmt")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/084d244c-de6d-4c25-9da7-27057c442fbd"
+      (reference "R3") (unit 1) (value "1MR") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/3c3142b5-c1db-4ccc-8ba1-e147d7d58185"
+      (reference "R4") (unit 1) (value "27R") (footprint "libverter:bettrsmt")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/c820d012-f2f0-4268-ad18-3164c7325b3e"
+      (reference "R10") (unit 1) (value "620R") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/2874a2bc-55de-4b2a-b96f-99f56ecddb37"
+      (reference "R11") (unit 1) (value "10kR") (footprint "generic-chkn:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/f28b32db-2e1f-4057-8024-2583d5769f81"
+      (reference "R12") (unit 1) (value "0R") (footprint "libverter:bettrsmt")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/57931706-c346-4a7a-a088-d7fce4a080b2"
+      (reference "U1") (unit 1) (value "coolmos70") (footprint "libverter:TO-220-3_thermttabdrain")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/39999d78-2a67-4bd1-8868-b9a34156e73a"
+      (reference "U2") (unit 1) (value "coolmos70") (footprint "libverter:TO-220-3_thermttabdrain")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/1e88667f-dfe9-4d5f-8e4c-b5563547746d"
+      (reference "U4") (unit 1) (value "adum3223") (footprint "libverter:aum")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/0c2546dc-d753-4e87-84cb-9d3d97554d94"
+      (reference "cn1") (unit 1) (value "jumper5") (footprint "libverter:jumper.1x5")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/f7c362a9-adcd-495e-9521-81012cfd8fbf"
+      (reference "t1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/c4139120-c7c9-4616-a0ae-9a851adb1f9c"
+      (reference "t2vdda1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/a8827c73-6273-4eea-a0b3-2ac1aef7965a"
+      (reference "t3bat-1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/8e875e7b-f435-48fe-904e-cd96af2470b5"
+      (reference "t4bat+1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/7afd6cda-0b5b-43e9-b7a3-5db5dbcaab4a"
+      (reference "t5lo_gate1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/741e3282-939c-429d-b996-60997d32a4a3"
+      (reference "t6higate1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/e1be4218-94ea-4994-84ee-1580c9f8eb71"
+      (reference "t7hbc1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/ed4fdce8-bb04-4e38-a933-30f0fa2d56e8"
+      (reference "t8hbf1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+    (path "/e6e13d1c-360e-4fa0-9b92-15c11b8ce28d/d26437d3-1117-4ef5-800e-eb43bfab2583"
+      (reference "t12hbout1") (unit 1) (value "tp") (footprint "libverter:tp")
+    )
+  )
 )
